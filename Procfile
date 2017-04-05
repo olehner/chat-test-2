@@ -1,1 +1,1 @@
-web: rackup private_pub.ru -s thin -E production
+web: bundle exec puma -p $PORT -E production
