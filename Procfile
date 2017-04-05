@@ -1,1 +1,1 @@
-web: bundle exec puma -p $PORT -E production
+web: bundle exec puma -p $PORT -e production
